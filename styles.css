@@ -18,17 +18,17 @@
  #content {
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
-    width: 21.875rem;
+    gap: 15px;
+    width: 390px;
     background: rgb(131,58,180);
     background: linear-gradient(241deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     padding: 1.25rem;
+    border-radius: 5px;
  }
 
  h1 {
    text-align: center;
    font-size: 3.125rem;
-   margin-bottom: 2.5rem;
    color: aliceblue;
  }
 
@@ -48,6 +48,7 @@
   font-family: "Amazon Ember",Arial,sans-serif;
   font-size: 0.875rem;
   height: 1.875rem;
+  /* width: 300px; */
   font-size: 0.75rem;
   outline: 0;
   overflow: hidden;
@@ -59,6 +60,8 @@
   -webkit-user-select: none;
   touch-action: manipulation;
   white-space: nowrap;
+  /* position: absolute;
+  bottom: 10%; */
 }
 
 .button-14:active {
@@ -81,36 +84,33 @@
    
    
 input {
-    height: 2.5rem;
+    height: 30px;
     width: 100%;
-    padding: 5px 7px 0px 7px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    padding: 0px 7px 0px 7px;
+    border-radius: 10px;
     border: none;
     background-color: aliceblue;
     outline: none;
     font-size: 1.0625rem;
-    line-height: 100%;
  }
 
  label {
    display: flex;
-   align-items: center;
-   background-color: aliceblue;
-   padding-left: 0.625rem;
-   border-radius: 15px;
+   flex-direction: column;
+   gap: 3px;
+   color: aliceblue;
    font-size: 1.0625rem;
  }
 
 
  textarea {
    padding: 0.125rem 0.3125rem 0 0.3125rem;
-   width: 100%; 
-   min-height: 6.25rem;
+   height: 60px;
+   max-width: 100%;
    border-radius: 15px;
    border: none;
    background-color: aliceblue;
-   border-top-right-radius: 15px;
-   border-bottom-right-radius: 15px;
+   border-radius: 15px;
    outline: none;
+   font-size: 0.9375rem;
  }
