@@ -7,7 +7,7 @@ btnGenerator.addEventListener('click', () => {
 
     // Configuração do arquivo final PDF
     const options = {
-        margin: [0, 0, 0, 0],
+        margin: [0, 0.5, 0, 0],
         filename: 'arquivo.pdf',
         html2canvas: {scale: 2},
         jsPDF: { unit: 'mm', format: 'a6', orientation: 'portrait'}
