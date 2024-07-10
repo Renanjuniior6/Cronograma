@@ -7,7 +7,7 @@
 
  body {
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,8 +18,8 @@
  #content {
     display: flex;
     flex-direction: column;
-    gap: 15px;
-    width: 370px;
+    gap: 0.9375rem;
+    width: 23.125rem;
     background: rgb(131,58,180);
     background: linear-gradient(241deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     padding: 1.25rem;
@@ -86,9 +86,9 @@
    
    
 input {
-    height: 30px;
+    height: 1.875rem;
     width: 100%;
-    padding: 0px 7px 0px 7px;
+    padding: 0px 0.4375rem 0px 0.4375rem;
     border-radius: 10px;
     border: none;
     background-color: aliceblue;
@@ -99,7 +99,7 @@ input {
  label {
    display: flex;
    flex-direction: column;
-   gap: 3px;
+   gap: 0.1875rem;
    color: aliceblue;
    font-size: 1.0625rem;
  }
@@ -107,12 +107,11 @@ input {
 
  textarea {
    padding: 0.125rem 0.3125rem 0 0.3125rem;
-   height: 60px;
+   height: 3.75rem;
    max-width: 100%;
    border-radius: 15px;
    border: none;
    background-color: aliceblue;
-   border-radius: 15px;
    outline: none;
    font-size: 0.9375rem;
  }
